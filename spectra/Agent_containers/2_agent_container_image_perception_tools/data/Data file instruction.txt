@@ -1,0 +1,7 @@
+All the data parquet files should be here which are injected with unique ids. Required for image starch while tool calling 
+
+* train.parquet
+* val.parquet
+* test.parquet
+
+paste these three files here

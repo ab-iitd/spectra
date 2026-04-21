@@ -1,0 +1,47 @@
+tools:
+  - class_name: "recipe.retool.retool.CustomToolSwitcher"
+    config:
+      sandbox_fusion_url: "http://Your Container API here:PORT/perception_tool"
+      num_workers: 128
+      enable_global_rate_limit: true
+      rate_limit: 128
+      default_timeout: 120
+      memory_limit_mb: 2048
+      type: native
+    tool_schema:
+      type: "function"
+      function:
+        name: "perception_tool"
+        description: "A tool for understanding images/visual questions better."
+        parameters:
+          type: "object"
+          properties:
+            image_url:
+              type: "string"
+              description: "The URL or dataset ID of the image."
+          required: ["image_url"]
+
+  - class_name: "recipe.retool.retool.CustomToolSwitcher"
+    config:
+      sandbox_fusion_url: "http://Your Container API here:PORT/run_python"
+      num_workers: 64
+      enable_global_rate_limit: true
+      rate_limit: 64
+      default_timeout: 30
+      default_language: "python"
+      memory_limit_mb: 512
+      type: native
+    tool_schema:
+      type: "function"
+      function:
+        name: "python_tool"
+        description: "A tool for executing code for calculations and solving equations.  "
+        parameters:
+          type: "object"
+          properties:
+            code:
+              type: "string"
+              description: "The proper formatted code to execute inside exec() function."
+          required: ["code"]
+
+  
