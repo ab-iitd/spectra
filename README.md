@@ -9,6 +9,9 @@ Waking Up Blind: Cold-Start Optimization of Supervision-Free Agentic Trajectorie
   <a href=""><b>[📜 Paper]</b></a> •
   <a href="https://github.com/ab-iitd/spectra/"><b>[🐱 GitHub]</b></a>
   <a href="https://huggingface.co/datasets/Tamalmajumder/Spectra_training_data"><b>[📊 Dataset]</b></a>
+  <a href="https://deepwiki.com/ab-iitd/spectra"><b>[Deepwiki]</b></a>
+
+  
   
 </p>
 
