@@ -8,6 +8,7 @@ Waking Up Blind: Cold-Start Optimization of Supervision-Free Agentic Trajectorie
   <a href="https://www.lcs2.in/"><b>[🌐 LCS2 Lab]</b></a> •
   <a href=""><b>[📜 Paper]</b></a> •
   <a href="https://github.com/ab-iitd/spectra/"><b>[🐱 GitHub]</b></a>
+  <a href="https://huggingface.co/datasets/Tamalmajumder/Spectra_training_data"><b>[📊 Dataset]</b></a>
   
 </p>
 
@@ -48,5 +49,22 @@ This repo contains the training scripts and path for MATHVERSE-PLUS dataset. Det
 ├── README.md
 ├── [Update Soon]
 ```
+---
+
+# Setting up
+For setting up, go to VERL documentation and install **VERL v0.5x**
+https://verl.readthedocs.io/en/latest/start/install.html
+
+Then clone the Spectra repository
+```
+cd /path/to/your/workspace
+```
+```
+git clone https://github.com/t-majumder/Spectra.git
+```
+
+# Data Generation
+The Data Generation scripts are given in the Spectra folder.
+
 ## SPECTRA Train/Test Resource
 The dataset used is avaiable at HuggingFace. <a href="https://huggingface.co/datasets/ab-iitd/MATHVERSE-PLUS"><b>[Click Here]</b></a>
